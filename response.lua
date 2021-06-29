@@ -5,7 +5,7 @@ function is_valid_word(word)
         data = lsoup(data):select("ul.result"):select("font", 1)
         return data:text()
     else
-        return nul
+        return nil
     end
 end
 
